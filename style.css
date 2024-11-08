@@ -1,0 +1,95 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Funnel Sans", sans-serif;
+  color: #eee;
+  background-color: RGB(0, 122, 204);
+}
+
+h1 {
+  font-size: 4.2rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  align-content: center;
+  justify-content: center;
+  padding: 1.8rem;
+}
+
+input {
+  padding: 0.6rem;
+  font-size: 1.8rem;
+  border: none;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  width: 250px;
+}
+
+button {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  padding: 0.6rem 2.4rem;
+  border: none;
+  background-color: #eee;
+  color: RGB(0, 122, 204);
+  font-family: inherit;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+button:hover {
+  background-color: #ddd;
+}
+
+.container {
+  display: grid;
+  gap: 4.8rem;
+  align-content: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 3.2rem;
+}
+
+.text-box {
+  display: grid;
+  gap: 1.8rem;
+  text-align: center;
+}
+
+.result {
+  color: #fff;
+  line-break: anywhere;
+}
+
+@media (max-width: 64em) {
+  html {
+    font-size: 50%;
+  }
+}
