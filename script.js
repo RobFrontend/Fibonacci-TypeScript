@@ -31,3 +31,5 @@ submit.addEventListener("click", function (e) {
     result.textContent = `Choose number between 1 and 999`;
   }
 });
+
+console.log("Hi there");
